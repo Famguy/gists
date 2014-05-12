@@ -5,7 +5,7 @@
 [source,cypher]
 
 ----
-create (n{name:"Test"})-[]->({name:"Foo"}) return n as node;
+create (n{name:'Test'})-[:has]->({name:'Foo'}) return n as node;
 ----
 
 
